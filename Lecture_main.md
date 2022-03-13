@@ -28,7 +28,7 @@ Interdisciplinary field that develops methods and software tools for understa
 _"…SRA currently contains more than 36 petabytes (PB) of data and is projected to grow to 43 PB by 2023. Though the value of this resource grows with each new sample, the exponential growth experienced over the last decade (Right) threatens SRA sustainability. The storage footprint is growing more costly to maintain and the data more difficult to use at scale. The situation has reached a tipping point. SRA must be refactored to support FAIR data principles into the future.”_ (From NCBI Insights)
 
 ### FAIR data principles
-Wilkinson, M. D. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3:160018 doi: 10.1038/sdata.2016.18 (2016).
+[FAIR Guiding Principles](https://pubmed.ncbi.nlm.nih.gov/26978244/ "Wilkinson, M. D. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3:160018 doi: 10.1038/sdata.2016.18 (2016")
 
 - The FAIR Guiding Principles
   - **To be Findable**
