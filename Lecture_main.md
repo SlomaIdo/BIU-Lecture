@@ -61,7 +61,7 @@ _"…SRA currently contains more than 36 petabytes (PB) of data and is projected
 
 ### Bioinformatics Methodology
 
-The fact that FAIR principles are applied to the Bioinformatics domain is an example of how this practice is dependent on the scaffold’s methodologies.
+The fact that FAIR principles are applied to the Bioinformatics domain is an example of how this practice dependent on the scaffold’s methodologies.
 
 - Bioinformaticians runs experiments as a **Biologist**.
 - Bioinformaticians handles data like **Data Scientists**.
@@ -71,7 +71,7 @@ The fact that FAIR principles are applied to the Bioinformatics domain is an exa
 
 ### 1. Agile Framework
 
-- AGILE methodology is a practice that promotes continuous iteration of development and testing throughout the software development lifecycle of the project. In the Agile model, both development and testing activities are concurrent, unlike the Waterfall model.
+- **AGILE methodology** is a practice that promotes continuous iteration of development and testing throughout the software development lifecycle of the project. In the Agile model, both development and testing activities are concurrent, unlike the **Waterfall model**.
 
 <img src="https://th.bing.com/th/id/R.2bb5f2576ab9767efcf8f8b01cc0eb24?rik=riUa33U0YSucqA&riu=http%3a%2f%2fprojectresources.cdt.ca.gov%2fwp-content%2fuploads%2fsites%2f50%2f2017%2f08%2ftraditional-waterfall-versus-agile.png&ehk=lM57quAL%2bIL3YPF5yre0TZLuxarCAPl3WW422rZBAOA%3d&risl=&pid=ImgRaw&r=0" alt="waterfallVSAgile"
 title="image Title"
