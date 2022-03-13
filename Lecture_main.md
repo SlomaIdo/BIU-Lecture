@@ -7,7 +7,7 @@
 title="Bioinformatics"
 height="65%" width="65%" style="display:block; margin-left:auto; margin-right:auto"/>
 
-Interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex.
+**Interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex.**
 
 ### Bioinformatics in the Biology Domain
 1. **LabOps** – Consolidations, automation and operations of all the results data in real-time within data storage such as LIMS or cloud.
@@ -61,7 +61,7 @@ _"…SRA currently contains more than 36 petabytes (PB) of data and is projected
 
 ### Bioinformatics Methodology
 
-The fact that FAIR principles are applied to the Bioinformatics domain is an example that this practice is dependent on the scaffold’s methodology.
+The fact that FAIR principles are applied to the Bioinformatics domain is an example of how this practice is dependent on the scaffold’s methodologies.
 
 - Bioinformaticians runs experiments as a **Biologist**.
 - Bioinformaticians handles data like **Data Scientists**.
@@ -69,7 +69,7 @@ The fact that FAIR principles are applied to the Bioinformatics domain is an exa
 
 ## Bioinformatics Methodology (software Development)
 
-### Agile Framework
+### 1. Agile Framework
 
 - AGILE methodology is a practice that promotes continuous iteration of development and testing throughout the software development lifecycle of the project. In the Agile model, both development and testing activities are concurrent, unlike the Waterfall model.
 
@@ -81,9 +81,19 @@ height="75%" width="75%" style="display:block; margin-left:auto; margin-right:au
 
 - Biotech recently started to embrace Agile as the main development framework.
 
-![agile4Values](https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/AgileOrganizations/L_scrum_alliance_website_agile_orgs_infographic_manifesto_1.png)
+#### Agile Values
+
+<img src="https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/AgileOrganizations/L_scrum_alliance_website_agile_orgs_infographic_manifesto_1.png" alt="waterfallVSAgile"
+title="Agile Values"
+height="100%" width="100%" style="display:block; margin-left:auto; margin-right:auto"/>
 
 #### Agile Principles
+
+<img src="https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/AgileOrganizations/L_scrum_alliance_website_agile_orgs_infographic_agile_principles_1.png" alt="waterfallVSAgile"
+title="Agile Values"
+height="100%" width="100%" style="display:block; margin-left:auto; margin-right:auto"/>
+
+
 - Our highest priority is to satisfy the customer
 through early and continuous delivery
 of valuable software.
@@ -125,3 +135,45 @@ emerge from self-organizing teams.
 - At regular intervals, the team reflects on how
 to become more effective, then tunes and adjusts
 its behavior accordingly.
+
+### 2. Software and System Components
+
+### 3. Code Style
+
+##### Coding is a manifest of your thinking.
+
+1. [**Code style should be constant.**](https://google.github.io/styleguide/)
+   1. Python
+   2. R
+   3. Bash
+
+2. **Code should be well documented.**
+   1. [R packages.](https://r-pkgs.org/)
+   2. [Python modules and class.](https://www.sphinx-doc.org)
+   3. Wiki / ReadMe file.
+
+
+3. **Evolution of code**
+   1. You start by a free monolithic script.
+   2. You break to functions.
+   3. You document the functions.
+   4. Create classes and convert functions to methods.
+   5. You test methods and/or functions with **unit tests**.
+   6. You provide all of the resources for the code to run.
+   7. Container the code with Docker.
+   8. Share the code on Github.
+
+## Intro to Git and GitHub
+
+**Git** is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).
+
+#### The Story of **Linus Torvalds**
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Lc3_2018_%28263682303%29_%28cropped%29.jpeg/220px-Lc3_2018_%28263682303%29_%28cropped%29.jpeg" alt="Linus"
+title="Linus Torvalds"
+height="50%" width="50%"
+style="display:block;
+margin-left:auto;
+margin-right:auto"/>
+
+##### _**"open source is the only right way to do software"**_
