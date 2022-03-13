@@ -1,8 +1,10 @@
 # Good practices for Data Science and Bioinformatics
 ## Git + Version Control
-## Author Ido Sloma
+## Ido Sloma
 
+---------------------
 
+![figure](https://th.bing.com/th/id/R.9bed9c8dbc91562b70a22f1b94e15055?rik=Pmf4Ucjt2GIH2Q&riu=http%3a%2f%2fmcmero.github.io%2fimages%2fbioinformatics_venn.png&ehk=p2S4eWu9RFAAIHfmCmJ5QDrW9B0tohSK%2bYh%2be7boDZ0%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1 "Bioinformatics Venn")
 
 Interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex.
 
@@ -32,4 +34,4 @@ The fact that FAIR principles are applied to the Bioinformatics domain is an exa
 
 - Bioinformaticians runs experiments as a **Biologist**.
 - Bioinformaticians handles data like **Data Scientists**.
-- Bioinformaticians writes tools like **Software developers**. 
+- Bioinformaticians writes tools like **Software developers**.
