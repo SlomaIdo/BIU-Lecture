@@ -215,9 +215,11 @@ git log --oneline
 git log --reflog --oneline
 ```
 #### Local Repository - Branches
-
 ```
 git branch
+git branch -d <branch>
 git checkout <branch>
+
+git merge <branch>
 
 ```
