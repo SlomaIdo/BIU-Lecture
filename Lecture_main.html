@@ -25,7 +25,7 @@
 <h2 id="git-version-control">Git + Version Control</h2>
 <h2 id="ido-sloma">Ido Sloma</h2>
 <hr>
-<p><img src="https://th.bing.com/th/id/R.9bed9c8dbc91562b70a22f1b94e15055?rik=Pmf4Ucjt2GIH2Q&amp;riu=http%3a%2f%2fmcmero.github.io%2fimages%2fbioinformatics_venn.png&amp;ehk=p2S4eWu9RFAAIHfmCmJ5QDrW9B0tohSK%2bYh%2be7boDZ0%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0&amp;sres=1&amp;sresct=1" alt="figure1" title="Bioinformatics" height="65%" width="65%" style="display:block; margin-left:auto; margin-right:auto"></p>
+<p><img src="https://th.bing.com/th/id/R.9bed9c8dbc91562b70a22f1b94e15055?rik=Pmf4Ucjt2GIH2Q&amp;riu=http%3a%2f%2fmcmero.github.io%2fimages%2fbioinformatics_venn.png&amp;ehk=p2S4eWu9RFAAIHfmCmJ5QDrW9B0tohSK%2bYh%2be7boDZ0%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0&amp;sres=1&amp;sresct=1" alt="figure1" title="Bioinformatics" height="50%" width="50%" style="display:block; margin-left:auto; margin-right:auto"></p>
 <p><strong>Interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex.</strong></p>
 <h3 id="bioinformatics-in-the-biology-domain">Bioinformatics in the Biology Domain</h3>
 <ol>
@@ -35,8 +35,8 @@
 <p><img src="https://th.bing.com/th/id/R.c27806bcdbc3d2d8685d62c0dd3bd856?rik=U4BcmTYZJ6SF8A&amp;riu=http%3a%2f%2fmms.businesswire.com%2fmedia%2f20170109006363%2fen%2f563449%2f5%2fNovaSeq6000.jpg&amp;ehk=KM5rc8QqCgZ0nXrNLYc1Y6BmxFKFFCGW1sa6UZMyj2c%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="figure2" title="Illumina Introduces the NovaSeq Series" height="45%" width="45%" style="display:block;
 margin-left:0px;
 margin-right:auto"></p>
-<p><img src="https://www.fannin.eu/wp-content/uploads/2020/04/Celigo-2-1.jpg" alt="figure3" title="Celligo Image Cytometer" height="45%" width="45%" style="display:block;
-margin-left:300px;
+<p><img src="https://www.fannin.eu/wp-content/uploads/2020/04/Celigo-2-1.jpg" alt="figure3" title="Celligo Image Cytometer" height="35%" width="35%" style="display:block;
+margin-left:400px;
 margin-right:auto"></p>
 <h3 id="the-forbidden-figure">The Forbidden Figure</h3>
 <p><img src="https://th.bing.com/th/id/OIP.fPumGo5YiKkihMbV1JTl4QHaFj?pid=ImgDet&amp;rs=1" alt="figure4" title="Forbidden Figure" height="50%" width="50%" style="display:block;
@@ -128,6 +128,21 @@ its behavior accordingly.</p>
 </ul>
 <h3 id="2-software-and-system-components">2. Software and System Components</h3>
 <h3 id="3-code-style">3. Code Style</h3>
+<p>Bioinformatics Code languages:</p>
+<ul>
+<li><strong>R</strong>: Especially Bioconductor.</li>
+<li><strong>Python</strong>: For Every Reason.</li>
+<li><p><strong>Bash</strong>: A must!</p>
+</li>
+<li><p>Abstract tools:</p>
+<ul>
+<li><strong>Nextflow</strong> like tools.</li>
+<li><strong>AWS</strong></li>
+<li><strong>SQL</strong></li>
+<li><strong>Linux</strong> (Must!)</li>
+</ul>
+</li>
+</ul>
 <h5 id="coding-is-a-manifest-of-your-thinking-">Coding is a manifest of your thinking.</h5>
 <ol>
 <li><p><a href="https://google.github.io/styleguide/"><strong>Code style should be constant.</strong></a></p>
@@ -154,7 +169,7 @@ its behavior accordingly.</p>
 <li>You test methods and/or functions with <strong>unit tests</strong>.</li>
 <li>You provide all of the resources for the code to run.</li>
 <li>Container the code with Docker.</li>
-<li>Share the code on Github.</li>
+<li>Make the code public on Github.</li>
 </ol>
 </li>
 </ol>
@@ -165,7 +180,23 @@ its behavior accordingly.</p>
 margin-left:auto;
 margin-right:auto"></p>
 <h5 id="open-source-is-the-only-right-way-to-do-software"><em><strong>"open source is the only right way to do software"</strong></em></h5>
-</article></div><div style="background-color: #b4b2b2;width: 50px;height:50px;line-height: 50px;text-align: center;position: fixed;bottom: 10px;right: 10px;padding-top:5px;" onclick="document.documentElement.scrollTop = document.body.scrollTop =0;">
+<h3 id="git-exercise">Git Exercise</h3>
+<h4 id="local-repository">Local Repository</h4>
+<p>This is to configure git service.</p>
+<pre><code>git config --global user.name "Isloma"
+git config --global user.email ido@systemsbiomed.org</code></pre><p>To Start a local git repository.</p>
+<pre><code>git init
+git add
+git commit
+git commit -m "commit msg"</code></pre><pre><code>git log
+git log --stat
+git log -p
+git log -all
+git log --oneline
+git log --reflog --oneline</code></pre><h4 id="local-repository-branches">Local Repository - Branches</h4>
+<pre><code>git branch
+git checkout &lt;branch&gt;
+</code></pre></article></div><div style="background-color: #b4b2b2;width: 50px;height:50px;line-height: 50px;text-align: center;position: fixed;bottom: 10px;right: 10px;padding-top:5px;" onclick="document.documentElement.scrollTop = document.body.scrollTop =0;">
   <svg t="1533629773982" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1035" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40"><defs><style type="text/css">@font-face { font-family: uc-nexus-iconfont; src: url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff") format("woff"), url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf") format("truetype"); }
   </style></defs><path d="M536.255427 195.182354c-7.804756-7.804756-17.966187-11.615549-28.311813-11.615549-9.43693 0-18.874883 3.449565-26.496467 10.163477-2.360767 1.452071-4.356214 3.267417-6.352685 5.262864L218.47792 455.611735c-15.607466 15.60542-15.607466 40.834011 0 56.43943 15.607466 15.607466 41.558511 15.607466 57.167001 0l193.46013-192.733583 0 600.526219c0 22.1423 17.787108 39.927361 39.927361 39.927361 22.140253 0 39.927361-17.785062 39.927361-39.927361L548.959773 319.317583 737.15704 508.422522c15.607466 15.607466 40.469714 15.607466 56.078203 0 15.607466-15.607466 15.425318-40.834011-0.182149-56.441477L536.255427 195.182354 536.255427 195.182354z" p-id="1036" fill="#333"></path><path d="M101.784174 143.097092l816.674071 0c22.140253 0 39.925315-17.785062 39.925315-39.927361 0-22.140253-17.784038-39.925315-39.925315-39.925315L101.784174 63.244416c-22.140253 0-39.927361 17.785062-39.927361 39.925315C61.856813 125.31203 79.643921 143.097092 101.784174 143.097092L101.784174 143.097092z" p-id="1037" fill="#333"></path></svg>
 </div>

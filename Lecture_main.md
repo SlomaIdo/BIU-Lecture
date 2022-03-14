@@ -5,7 +5,7 @@
 ---------------------
 <img src="https://th.bing.com/th/id/R.9bed9c8dbc91562b70a22f1b94e15055?rik=Pmf4Ucjt2GIH2Q&riu=http%3a%2f%2fmcmero.github.io%2fimages%2fbioinformatics_venn.png&ehk=p2S4eWu9RFAAIHfmCmJ5QDrW9B0tohSK%2bYh%2be7boDZ0%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="figure1"
 title="Bioinformatics"
-height="65%" width="65%" style="display:block; margin-left:auto; margin-right:auto"/>
+height="50%" width="50%" style="display:block; margin-left:auto; margin-right:auto"/>
 
 **Interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex.**
 
@@ -22,9 +22,9 @@ margin-right:auto"/>
 
 <img src="https://www.fannin.eu/wp-content/uploads/2020/04/Celigo-2-1.jpg" alt="figure3"
 title="Celligo Image Cytometer"
-height="45%" width="45%"
+height="35%" width="35%"
 style="display:block;
-margin-left:300px;
+margin-left:400px;
 margin-right:auto"/>
 
 ### The Forbidden Figure
@@ -140,6 +140,17 @@ its behavior accordingly.
 
 ### 3. Code Style
 
+Bioinformatics Code languages:
+- **R**: Especially Bioconductor.
+- **Python**: For Every Reason.
+- **Bash**: A must!
+
+- Abstract tools:
+  - **Nextflow** like tools.
+  - **AWS**
+  - **SQL**
+  - **Linux** (Must!)
+
 ##### Coding is a manifest of your thinking.
 
 1. [**Code style should be constant.**](https://google.github.io/styleguide/)
@@ -161,7 +172,7 @@ its behavior accordingly.
    5. You test methods and/or functions with **unit tests**.
    6. You provide all of the resources for the code to run.
    7. Container the code with Docker.
-   8. Share the code on Github.
+   8. Make the code public on Github.
 
 ## Intro to Git and GitHub
 
@@ -177,3 +188,36 @@ margin-left:auto;
 margin-right:auto"/>
 
 ##### _**"open source is the only right way to do software"**_
+
+### Git Exercise
+#### Local Repository
+
+This is to configure git service.
+```
+git config --global user.name "Isloma"
+git config --global user.email ido@systemsbiomed.org
+```
+
+To Start a local git repository.
+```
+git init
+git add
+git commit
+git commit -m "commit msg"
+```
+
+```
+git log
+git log --stat
+git log -p
+git log -all
+git log --oneline
+git log --reflog --oneline
+```
+#### Local Repository - Branches
+
+```
+git branch
+git checkout <branch>
+
+```
