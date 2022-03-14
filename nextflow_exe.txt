@@ -1,5 +1,4 @@
-ssh isloma@dsihead.lnx.biu.ac.il
-ssh isloma@dsigpu07
+
 https://github.com/nf-core/rnaseq
 git clone https://github.com/nf-core/rnaseq.git
 ~/tools/nextflow run nf-core/rnaseq -profile test,docker --outdir ./test_run
